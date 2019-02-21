@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="CalculadoraNode.css">
+	<script type="text/javascript" src="CalculadoraNode.js"></script>
+</head>
+<body>
+
+
+<div id="calc">
+
+<!-- Display. Aqui se muestran los numeros -->
+<input id="desplegar" type="text">
+<!-- Inicio de la Linea 1 
+Las dos primeras lineas aun no poseen funciones
+-->
+<div id="linea1">
+<button onclick="()"> MC </button>
+<button onclick="()"> MR </button>
+<button onclick="()"> MS </button>
+<button onclick="()"> M+ </button>
+<button onclick="()"> M- </button>
+</div>
+
+<!-- Inicio de la Linea 2 -->
+
+<div id="linea2">
+<button onclick="()"> ← </button>
+<button onclick="()"> CE </button>
+<button onclick="()"> C </button>
+<button onclick="()"> ± </button>
+<button onclick="()"> √ </button>
+</div> 
+
+<!-- Inicio de la Linea 3 -->
+
+<div id="linea3">
+<button onclick="num('7')" value="7">7</button>
+<button onclick="num('8')" value="8">8</button>
+<button onclick="num('9')" value="9">9</button>
+<!-- El valor es el que se despliega en el input de la parte de arriba,
+	la funcion encargada de esto es la funcion num()
+ -->
+<button onclick="division()" value="/">/</button>
+<button onclick="desplegarnumero(this)" value="%">%</button>
+</div> 
+
+<!-- Inicio de la Linea 4 -->
+
+<div id="linea4">
+<button onclick="num('4')" value="4">4</button>
+<button onclick="num('5')" value="5">5</button>
+<button onclick="num('6')" value="6">6</button>
+<button onclick="multiplicacion()" value="*">*</button>
+<button onclick="()"> 1/x </button></button>
+</div> 
+
+<!-- Inicio de la Linea 5 -->
+
+<div id="linea5">
+<button onclick="num('1')" value="1">1</button>
+<button onclick="num('2')" value="2">2</button>
+<button onclick="num('3')" value="3">3</button>
+<button onclick="resta()" value="-">-</button>
+<button onclick="igual()" value="=">=</button>
+</div> 
+
+<!-- Inicio de la Linea 6 -->
+
+<!-- Utilice el CSS en esta zona para evitar utilizar divs y mejorar el uso del 0 -->
+<button style="width:74px;margin-left:1px;" onclick="num('0')" value="0">0</button>
+<button style="width:35px;margin-left:2px;" onclick="desplegarnumero(this)" value=",">,</button>
+<button style="width:35px;margin-left:1px;" onclick="suma() "value="+">+</button>
+
+
+</div>
+
+</body>
+</html>

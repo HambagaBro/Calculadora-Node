@@ -1,0 +1,42 @@
+input{
+	width:194.3px;
+}
+#calc{
+	margin-left:600px; 
+	margin-right:550px; 
+	margin-top:150px; 
+	border:1px solid black;
+
+}
+#linea1 button{
+	width:35px;
+	text-align:center;
+	margin-left:1px;
+
+}
+
+#linea2 button{
+	width:35px;
+	text-align:center;
+	margin-left:1px;
+}
+
+#linea3 button{
+	width:35px;
+	text-align:center;
+	margin-left:1px;
+}
+
+#linea4 button{
+	width:35px;
+	text-align:center;
+	margin-left:1px;
+}
+
+#linea5 button{
+	width:35px;
+	text-align:center;
+	margin-left:1px;
+}
+
+
